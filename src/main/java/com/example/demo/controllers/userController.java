@@ -1,5 +1,4 @@
 
- 
 
 
 
@@ -36,9 +35,15 @@ import lombok.RequiredArgsConstructor;
 public class userController {
 	
 	 	@Autowired
+<<<<<<< HEAD
 	 	private  UserService userService ;
 	 	@Autowired
 	    private    UserAuthenticationProvider userAuthenticationProvider;
+=======
+	 	private final UserService userService ;
+	 	@Autowired
+	    private  final  UserAuthenticationProvider userAuthenticationProvider;
+>>>>>>> 2446b46e5a0f4519f51e427cb19bd24352d11d72
 	 	
 
 		@PostMapping("/login")
